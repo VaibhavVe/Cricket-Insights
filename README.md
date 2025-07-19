@@ -35,6 +35,19 @@ Python & Jupyter Notebook,pandas, matplotlib, seaborn
 CSV (raw structured data)
 JSON (Power BI themes and formatting)  
 
+Cricket-Insights/
+├── 📂 csv_files/             # Contains T20 match data in CSV format
+├── 📂 t20_json_files/        # Contains T20 match data in JSON format
+├── 📊 Cricket Dashboard.pbix # Power BI dashboard file for data visualization
+├── 📓 Untitled.ipynb         # Jupyter notebook for data cleaning / analysis
+├── 📷 Screenshot(19).png     # Top Order Batting Insight
+├── 📷 Screenshot(20).png     # Middle Order Batting Insight
+├── 📷 Screenshot(21).png     # Lower Order Insight
+├── 📷 Screenshot(22).png     # All-Rounders & Finishers Insight
+├── 📷 Screenshot(23).png     # Fast Bowlers Insight
+└── 📄 README.md              # Project documentation
+
+
 | Top Order | Middle Order | Lower Order |
 |-----------|--------------|-------------|
 | ![Top Order](Screenshot(19).png) | ![Middle Order](Screenshot(20).png) | ![Lower Order](Screenshot(21).png) |
