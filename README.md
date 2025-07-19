@@ -1,14 +1,24 @@
 # 🏏 Cricket World Cup 2022 Data Analysis
 
-## 📌 Project Overview
-This project is a complete data analysis pipeline for the ICC T20 Cricket World Cup 2022. It includes data cleaning using Python (Pandas), transformation using SQL, and interactive data visualization using Power BI.
+This project is a comprehensive cricket analytics dashboard built using Power BI and Jupyter Notebook. It visualizes player performance across roles such as Top Order, Middle Order, Lower Order, All-Rounder/Finisher, and Fast Bowlers using interactive dashboards and Python-based data analysis.
 
-## 🧰 Tools Used
-- Python (Pandas, Jupyter Notebook)
-- SQL Server / MySQL
-- Power BI
-- Power Query
-- Excel / CSV (raw data source)
+##📈 Jupyter Notebook Features
+Data cleaning & preprocessing using pandas
+Performance aggregation (batting & bowling stats)
+Exploratory data analysis
+Exporting cleaned data to Power BI-compatible format
+
+📊 Dashboard Features (Power BI)
+Role-Based Pages:
+Tabs for each player type: Top Order, Middle Order, Lower Order, All-Rounders, Fast Bowlers
+-KPIs & Metrics:
+Batting: Average, Strike Rate, Boundary %, Balls Faced
+Bowling: Average, Strike Rate, Economy, Dot Ball %
+-Visual Elements:
+Line Charts for daily performance trends
+Bubble Charts for cross-metric comparison
+Interactive filters and slicers
+Conditional formatting for quick insights
 
 ## 🔧 Features
 - Cleaned raw cricket match data using Pandas (null values, formatting, type casting)
@@ -19,18 +29,18 @@ This project is a complete data analysis pipeline for the ICC T20 Cricket World 
 - Interactive dashboard with slicers for teams, venues, and players
 - Clear dashboard layout for insights and storytelling
 
-## 📁 Files Included
-- `CricketWorldCup2022.pbix` – Power BI dashboard
-- `cricket_cleaning.ipynb` – Jupyter Notebook for data cleaning using Pandas
-- `cricket_data.csv` – Raw dataset
-- `cricket_queries.sql` – SQL queries for cleaned data
-- `screenshot.png` – Dashboard preview image
+🧰 Tech Stack
+Power BI (for dashboard and visuals)
+Python & Jupyter Notebook,pandas, matplotlib, seaborn
+CSV (raw structured data)
+JSON (Power BI themes and formatting)  
 
-## 🔗 How to Use
-1. Open `cricket_cleaning.ipynb` in Jupyter Notebook to view the data cleaning steps.
-2. Use the cleaned CSV or run `cricket_queries.sql` to prepare tables in SQL Server.
-3. Load the cleaned data into Power BI.
-4. Open `CricketWorldCup2022.pbix` to explore the dashboard.
+| Top Order | Middle Order | Lower Order |
+|-----------|--------------|-------------|
+| ![Top Order](Screenshot(19).png) | ![Middle Order](Screenshot(20).png) | ![Lower Order](Screenshot(21).png) |
 
-## 🖼️ Dashboard Preview
-![Dashboard Screenshot](Screenshot.png)
+| All‑Rounder / Finisher | Fast Bowler |
+|-------------------------|-------------|
+| ![All‑Rounder / Finisher](Screenshot(22).png) | ![Fast Bowler](Screenshot(23).png) |
+
+
